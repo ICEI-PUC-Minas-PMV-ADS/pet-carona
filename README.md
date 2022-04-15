@@ -1,9 +1,9 @@
-# TÍTULO DO PROJETO
+# Pet Carona
 
 `CURSO`
-
+Análise e Desenvolvimento de sistemas
 `DISCIPLINA`
-
+Projeto: desenvolvimento de Aplicação Web Front-End
 `SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
@@ -17,8 +17,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-- Nome completo do professor 1
-
+-  Joyce  Christina de Paiva Carvalho
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.

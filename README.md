@@ -1,7 +1,7 @@
 # Pet Carona
 
 `CURSO`
-Análise e Desenvolvimento de sistemas
+Análise e Desenvolvimento de Sistemas
 `DISCIPLINA`
 Projeto: desenvolvimento de Aplicação Web Front-End
 `SEMESTRE`

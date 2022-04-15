@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrante
 
 - Nome completo do aluno 1
-- Nome completo do aluno 2
+- Manoella Carvalho Oliveira
 - Edilson Beserra da Silva Filho
 - Igor Augusto Labaki Gonçalo
 

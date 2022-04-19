@@ -1,26 +1,38 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados na forma de personas e histórias de usuários.  
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|   Regina da Cunha    |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20regina.jpg)|**Idade:** 49 anos - **Ocupação:** Professora de inglês. Pratica teatro e toca guitarra em uma banda aos finais de semana. |**Pets:** Gata chamada Sabrina de 1 ano que faz acompanhamento veterinário uma vez por mês, pois possui cinomose. |
+|**Motivações:** Regina não tem carro e precisa seguir rigorosamente as datas das consultas.  |**Frustrações:** Dificuldade de ter transporte para levá-la; Uber não aceita o transporte, pois a gata não aceita ficar na caixinha e acaba dando arranhões; Regina não tem carro e o local do veterinário é fora de mão para o transporte coletivo |**História:** Regina cuida da Gata desde seu nascimento. Ela é filhote da antiga gata de Regina que faleceu em 2021. | 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|   Jessica Oliveira    |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20jessica.jpg)|**Idade:** 30 anos - **Ocupação:** Gerente de marketing na empresa Grupo GPS, localizado no bairro São José em Belo Horizonte MG. |**Pets:** Nike, craça Golden de 1 ano e 4 meses, frequenta a creche Matilha Real 5 vezes por semana em Belo Horizonte / MG. |
+|**Motivações:** Jessica não possui carteira de motorista e por este motivo precisa se locomover com a Nike através dos aplicativos de transporte. |**Frustrações:** Levar a Nike em tempo hábil para a creche e buscá-la; Como os aplicativos de transportes (Uber e 99) não aceitam levar a Nike, a Jéssica acaba pagando muito caro uma corrida de taxi. O que fica aproximadamente um valor de R$31,50.  |**História:** Jéssica nascida no interior de São Paulo, na cidade de Campos do Jordão, foi morar em Belo Horizonte pois foi aprovada no SISU para o curso de Publicidade e Propaganda na UFMG. Foi na universidade que conheceu suas amigas Maya a Luiza. Entrou na empresa GPS como estagiária foi efetivada e está completando 5 anos de empresa.  Em janeiro de 2021 ganhou das suas amigas a Nike que estava com 3 meses de vida. Jéssica e Nike mora no bairro Belvedere.|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|   Carlos Magno    |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20carlos.png)|**Idade:** 33 anos - **Ocupação:** Assistente administrativo de uma empresa de borracha localizada em Belo Horizonte. |**Pets:** Possui um Cadela chamada Mel, que possui 3 anos, na qual divide a guarda dela com sua ex esposa. Está em boas condições de saúde. |
+|**Motivações:** Com o desejo de ter uma condição melhor após anos, Carlos está cursando uma graduação para adquirir um emprego melhor e assim conseguir uma melhor condição de vida. |**Frustrações:** Não possuir veículo para transportar sua cachorra para os passeios que ela tanto adora.  |**História:** Nascido em Belo Horizonte, formou o ensino médio é teve que começar a trabalhar cedo para ajudar em casa. Foi casado durante três anos, mas se separou é resolveu voltar aos estudos. Após 14 anos começou a sua graduação em Administração na PUC Minas é forma agora no final de 2024.|
+
+|   Carol Magalhães     |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20carol.png)|**Idade:** 38 anos - **Ocupação:** Design, trabalha em uma empresa desenvolvendo produtos. Mãe divorciada, de um menino de 15 anos, uma menina de 13 anos e um cachorro de grande porte. |**Pets:** Thor, cachorro de grande porte, com 8 anos de idade que precisa sair para passear pelo menos 2 vezes ao dia, devido ao seu porte ele precisa andar bastante para controle do peso. |
+|**Motivações:** Pouco tempo para fazer todas as atividades de sua rotina; Querer seu cachorro sempre saudável; Não possui carro. |**Frustrações:** Não conseguir manter uma rotina na qual consiga levar mensalmente seu cachorro ao veterinário; Não conseguir manter uma rotina na qual consiga levar semanalmente seu cachorro ao veterinário; Não conseguir ir com seus filhos e o cachorro para o parque.   |**História:** Nascida em SP, se casou cedo, em seu casamento teve 2 filhos. Após alguns anos de casada, se divorciou. Para ajudar na adaptação de toda essa mudança, adotaram Thor para fazer companhia a família. Hoje ela vive bem, mas devido a rotina de estudo, trabalho, cuidar dos filhos, cuidar da casa quase não sobra tempo pra dar toda atenção necessária a Thor.|
+
+|   João Francisco      |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20joao.png)|**Idade:** 25 anos - **Ocupação:** Comerciante e responsável por uma ONG de resgate de cães de rua. Abriga cerca de 30 cães no espaço de sua ONG, com a ajuda de voluntários.  |**Pets:** Cerca de 30, todos adotados em situação de rua, em tratamento para serem disponibilizados para adoção. |
+|**Motivações:** Muitos cães para levar a veterinário e tratamentos médicos; Dedicado a tentar dar o suporte necessário a esses animais em situação vulnerável. |**Frustrações:** Nem sempre está disponível na ONG para levá-los em seu carro, e nem todos os voluntários possuem carro ou CNH; Falta de recursos financeiros para manter todos os custos da instituição; Falta de mais de um veículo próprio para poder transportar todos os animais quando é necessário.  |**História:** Filho de comerciantes, João administra com os pais a loja de eletrônicos da família no centro de São Paulo. Como projeto pessoal, criou a ONG para ajudar cachorros abandonados nas ruas da capital, com recursos próprios e doações. Possui apenas um carro de passeio para transportar os cães. |
+   
+|   Ana Lúcia      |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20ana.jpg)|**Idade:** 75 anos - **Ocupação:** Aposentada.  |**Pets:** 1 gata, chamada Siena, que possui 10 anos de idade e vários problemas de saúde. |
+|**Motivações:** Ana Lúcia possui problemas de locomoção por conta da idade e precisa de acompanhamento médico semanal; Ela não dirige, portanto, levar Siena ao veterinário é uma tarefa difícil e desgastante; Transportes particulares não cabem no seu orçamento  |**Frustrações:** O veterinário fica longe da casa de Ana Lúcia; Por suas dificuldades de locomoção, utilizar o transporte público com a gata é inviável; As opções disponíveis de transporte são muito caras para o orçamento de Ana Lúcia  |**História:** Veio morar em uma cidade pequena para diminuir os custos de vida com a aposentadoria ; Não possui filhos que moram na mesma cidade; Possui a gata como sua principal companhia.   |
 
 ## Histórias de Usuários
 
@@ -28,64 +40,50 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Regina Cunha| Realizar a filtragem do motorista pelo sexo.| Se sentir mais segura na viagem.|
+|Jessica Oliveira Alves|Utilizar a pesquisa da localidade por motoristas disponíveis próximo ao meu bairro.|Otimizar o máximo de tempo da viagem até o meu destino.|
+|Carlos Magno|Verificar os motoristas selecionados nas corridas anteriores e a disponibilidade deles.|Conseguir um processo de agendamento mais rápido, combinando corridas apenas com motoristas que topem transportar animais de grande porte.|
+|Carol Magalhães|Pesquisar os motoristas pelo filtro do tipo e tamanho do veículo que possui.|Acessar a opção de realizar a viagem em um veículo confortável.|
+|Carol Magalhães|Verificar as notas e comentários que os usuários deram aos motoristas cadastrados.|Possuir alguma referência de segurança.|
+|João Francisco|Verificar pelo site os motoristas disponíveis para corrida.|Realizar a solicitação de corrida, mais rapidamente.|
+|João Francisco|Verificar os motoristas que precisam de ajuda de custo e os valores.|Poder retribuir de alguma forma a ajuda destas pessoas voluntárias.|
+|Ana Lúcia|Realizar o direcionamento do contato dos motoristas identificados pela plataforma para o WhatsApp.|Realizar agendamento das corridas e definição dos detalhes (horário, local etc)|
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis sob os seguintes parâmetros:  1) Região onde mora, 2) Região disponível para corridas,  3) Horários e dias da semana disponíveis,  4) Se cobra ajuda de custo e  5) Sexo do motorista.  | ALTA | 
+|RF-002| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de passageiro:  1) Região onde mora,  2) Região que costuma frequentar nas corridas,  3) Horários e dias da semana de preferência,  4) Espécie e porte dos pets,  5) Preferência de sexo dos motoristas e  6) Número de celular utilizado no WhatsApp.   |ALTA |
+|RF-003| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil do motorista:  1) Tipo e tamanho de veículo que possui, 2) Disponibilidade de horário e dia da semana,  3) Porte de pets e quantidade que pode transportar,  4) Sexo,  5) Se precisa de ajuda de custo, 6) Valor da ajuda de custo,  7) Número de celular utilizado no WhatsApp.  | ALTA | 
+|RF-004| O site deve permitir a conexão entre motoristas e passageiros, após realizada a busca, direcionando-os para o ambiente do WhatsApp com seus respectivos números cadastrados.    |ALTA |
+|RF-005| O site deve permitir a classificação dos motoristas com comentários e notas de 1 a 5 após as corridas. Essas notas geram um ranking visível aos passageiros.     |BAIXA |
+|RF-006| O site deve permitir a classificação dos passageiros com comentários e notas de 1 a 5 após as corridas. Essas notas geram um ranking visível aos motoristas   |BAIXA|
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet e facilmente acessível para toda a equipe de desenvolvimento (GitHub Pages)  | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada  |  ALTA |
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade    |  MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)   |  ALTA |
+|RNF-005| O site deve apresentar as informações de forma visual e acessível, através de uma interface simples    |  ALTA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26 de junho de 2022.  |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end.      |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho.     |

@@ -7,7 +7,6 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 Os componentes que fazem parte da solução são apresentados na figura abaixo.
 
 ![Diagramad de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/arquitetura.PNG)
-<center>Figura - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  

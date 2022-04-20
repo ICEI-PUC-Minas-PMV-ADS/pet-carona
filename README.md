@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrante
 
-- Nome completo do aluno 1
+- Mauro Jorge de Albuquerque Barreto
 - Manoella Carvalho Oliveira
 - Edilson Beserra da Silva Filho
 - Igor Augusto Labaki Gonçalo

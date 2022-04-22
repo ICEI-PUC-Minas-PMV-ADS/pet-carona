@@ -48,7 +48,7 @@ Se o usuário desejar ver todos os motoristas cadastrados no site ele verá a fo
 
 #### Tela de Perfil do motorista na visão de passageiro:
 
-![Visualização do perfil do motorista na visão do passageiro](https://user-images.githubusercontent.com/101114385/164715156-d35ecd98-494e-40f2-80c4-bbdbb09e2ed8.png)
+![Visualização perfil do passageiro](https://user-images.githubusercontent.com/101114385/164715159-b499adde-6700-446f-81ff-5c8ad532074f.png)
 
 Após o usuário selecionar o motorista desejado irá apresentar informações pessoais do motorista deste, informações do veículo e informações sobre a viagem.  Se assim o usuário aceitar o perfil do motorista o mesmo pode solicita-lo pelo botão no fim da tela. , ele pode solicitar uma corrida clicando no botão no fim da tela.
 
@@ -66,7 +66,7 @@ O motorista, após selecionar a opção de motorista confirmar seu perfil nessa 
 
 #### Analisar perfil do passageiro:
 
-![Visualização perfil do passageiro](https://user-images.githubusercontent.com/101114385/164715159-b499adde-6700-446f-81ff-5c8ad532074f.png)
+![Visualização do perfil do motorista na visão do passageiro](https://user-images.githubusercontent.com/101114385/164715156-d35ecd98-494e-40f2-80c4-bbdbb09e2ed8.png)
 
 Caso o motorista clique para analisar o perfil do passageiro, ele será redirecionado para uma tela com o perfil com informações sobre o passageiro é e seu pet.
 

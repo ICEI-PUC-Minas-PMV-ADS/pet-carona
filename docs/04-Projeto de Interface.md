@@ -77,10 +77,6 @@ Caso o motorista clique para analisar o perfil do passageiro, ele será redireci
 Será redirecionado para uma tela de contato via WhatsApp com o passageiro para que ambos agendem a viagem e definam os detalhes da corrida.
 
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
 ## Wireframes

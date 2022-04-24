@@ -75,6 +75,6 @@ Será redirecionado para uma tela de contato via WhatsApp com o passageiro para 
 
 #### Após o horário agendado para a corrida:
 
-![Tela de avaliação de motorista ou passageiro após a corrida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/tela%20notas.PNGpng)
+![Tela de avaliação de motorista ou passageiro após a corrida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/tela%20notas.PNG)
 
 Após o horário agendado para a corrida, ambos usuários (tanto motorista quanto passageiro) recebem uma tela por meio de notificação push em que são convidados a avaliarem com nota de 1 a 5 o outro usuário e a deixarem um comentário opcional.

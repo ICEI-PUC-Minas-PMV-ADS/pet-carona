@@ -45,7 +45,7 @@ A equipe está organizada da seguinte maneira:
 -	`Product Owner`: Mauro Barreto
 -	`Tech Lead`: Igor Gonçalo
 -	`Equipe de Desenvolvimento`:Jaynne Nunes, Luis Silva, Leidiane Nascimento, Manoella Oliveira
--	`Equipe de Design`: Edilson Filho
+-	`Equipe de Design`: Edilson Filho, Igor Gonçalo
 
 ### Ferramentas
  

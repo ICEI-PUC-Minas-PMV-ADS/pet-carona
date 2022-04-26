@@ -8,7 +8,7 @@ Projeto: desenvolvimento de Aplicação Web Front-End
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
-## Integrante
+## Integrantes
 
 - Mauro Jorge de Albuquerque Barreto
 - Manoella Carvalho Oliveira

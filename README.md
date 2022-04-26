@@ -15,6 +15,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 - Edilson Beserra da Silva Filho
 - Igor Augusto Labaki Gonçalo
 - Luis Othávio Santos da Silva
+- Jaynne Polyana Nunes
+
 ## Orientador
 
 -  Joyce  Christina de Paiva Carvalho

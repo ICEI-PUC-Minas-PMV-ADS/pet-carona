@@ -84,12 +84,12 @@
 	align-items: center;
 	z-index: 20;
 
-	height: 460px;
+	height: 480px;
 	width: 100%;
 	min-width: 200px;
 
 	border-radius: 16px;
-	padding: 20px 25px 40px;
+	padding: 20px 25px 0px;
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 37px;
@@ -111,12 +111,13 @@
 	min-width: 100px;
 	border-radius: 10px;
 	margin-top: 15px;	
-	padding: 32px 20px 38px;
+	padding: 32px 10px 38px;
 }
 
 .cardPerfil {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 
 	width: 100%;
 	height: 85px;
@@ -138,10 +139,10 @@
 
 	row-gap: 8px;
 	height: 100%;
-	width: 100%;
 }
 
 .botaoEnviar{
+	display: flex;	
 	background-color: transparent;
 	border-width: 0;
 	text-align: left;
@@ -154,6 +155,17 @@
 	position: relative;
 }
 
+.botaoVoltar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 15px;
+	border-radius: 10px;
+	height: 26px;
+	width: 86px;
+}
+
 .dogImage {
     height: 151px;
     width: 375px;
@@ -161,5 +173,4 @@
 		position: absolute;
 		transform: translateY(541px);
 }
-
 

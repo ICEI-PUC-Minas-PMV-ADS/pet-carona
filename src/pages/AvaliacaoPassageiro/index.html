@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avaliacao Passageiro</title>
+    <title>Perfil Passageiro</title>
     <link rel="stylesheet" type="text/css"  href="./style.css" />
     <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
 </head>
-<body>
+<body class="container">
+    <header class="headerContainer">
+      <img class="logo" src="./../../../public/logo.png" alt="logo"/>
+    </header>
+    <main class="mainContainer">
+        <section class="sectionOneContainer">
+          <img class="perfilImage" src="./../../../public/perfil1.png" alt="foto do perfil"/>
+          <span class="viagensContainer">
+            <p>400</p>
+            <p>Viagens</p>
+          </span>
+          <span class="avaliacaoContainer">
+            <p>50pts</p>
+            <p>Avaliação</p>
+          </span>
+        </section>
+        <section class="sectionTwoContainer">
+          <p>Avaliações dos motoristas</p>
+          <div class="cardAvaliacoes">
+            <p>Hitórico de viagens</p>
+            <div class="cardPerfil">
+              <img class="historicoImage" src="./../../../public/perfil1.png" alt="foto do perfil"/>
+              <span class="avaliacaoPerfil">
+                <p>Nome </p>
+                <span>
+                  <img src="../../../public/star.svg" alt="Estrela">
+                  <img src="../../../public/star.svg" alt="Estrela">
+                  <img src="../../../public/star.svg" alt="Estrela">
+                  <img src="../../../public/star.svg" alt="Estrela">
+                  <img src="../../../public/star.svg" alt="Estrela">
+                </span>
+                <button class="botaoEnviar">Enviar</button>
+              </span>
+            </div>
+          </div>
+        </section>
+          <img class="dogImage" src="./../../../public/dog.png" alt="cachorro"/>
+    </main>     
     <script type="text/javascript" src="./js/teste.js"></script>
 </body>
 </html>

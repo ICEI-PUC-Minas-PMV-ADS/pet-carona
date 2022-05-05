@@ -1,11 +1,11 @@
 :root{
-    --background-laranja: #F78603;
-    --texto-laranja: #FFB803;
-    --roxo-escuro: #72368A;
-    --roxo-claro: #8E44AD;
-    --cinza: #C4C4C4;
-    --preto:#333333;
-    --branco:#ffffff;
+    --background-laranja:   #F78603;
+    --texto-laranja:        #FFB803;
+    --roxo-escuro:          #72368A;
+    --roxo-claro:           #8E44AD;
+    --cinza:                #C4C4C4;
+    --preto:                #333333;
+    --branco:               #ffffff;
 }
 * {
     margin: 0;

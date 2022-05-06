@@ -1,0 +1,50 @@
+
+.containerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.botaoMenu {
+    display: flex;
+    position: relative
+	
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 50;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+
+    width: 120px;
+    height: 150px;
+    top: 58px;
+    row-gap: 10px;
+    border-radius: 10px;
+   
+}
+
+.menu h1{
+    font-size: 14px;
+    font: 500;
+}
+
+.menu a{
+    font-size: 12px;
+    font: 400;
+}
+
+.menu hr{
+    height: 1px;
+    width: 100px;
+}
+
+
+

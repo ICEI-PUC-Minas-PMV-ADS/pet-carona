@@ -6,12 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Passageiro</title>
+    <link rel="stylesheet" type="text/css"  href="./menu.css" />
     <link rel="stylesheet" type="text/css"  href="./style.css" />
     <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
 </head>
 <body class="container">
     <header class="headerContainer">
       <img class="logo" src="./../../../public/logo.png" alt="logo"/>
+      <div id="containerMenu" class="containerMenu">
+        <img id="botaoMenu" src="../../../public/menu.png" alt="menu"/>
+        <div id="menu" class="menu" style="visibility: hidden;">
+          <h1>Menu</h1>
+          <hr>
+          <a>Atualizar Perfil</a>
+          <a>Visualizar Perfil</a>
+          <a>Avaliar</a>
+          <a>logout</a>
+        </div>
+      </div>
     </header>
     <main class="mainContainer">
         <section class="sectionOneContainer">
@@ -35,6 +47,7 @@
         </section>
           <img class="dogImage" src="./../../../public/dog.png" alt="cachorro"/>
     </main>     
-    <script type="module" src="./js/teste.js"></script>
+    <script type="module" src="./js/avaliacao.js"></script>
+    <script type="module" src="./js/menu.js"></script>
 </body>
 </html>

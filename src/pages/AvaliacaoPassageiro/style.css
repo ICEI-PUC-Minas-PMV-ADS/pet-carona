@@ -9,10 +9,12 @@
 
 .headerContainer {
     display: flex;
+	justify-content: space-between;
+
     height: 70px;
     width: 100%;
-
-		padding: 13px;
+	margin-top: 13px;
+	padding: 0px 15px;
 }
 
 .mainContainer {

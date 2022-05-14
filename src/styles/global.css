@@ -8,7 +8,6 @@
     --branco:               #ffff;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +23,7 @@ html {
     }
 }
 body {
-    background: var(--background);
+    /* background: var(--background); */
     -webkit-font-smooth: antialiased;
 }
 body, input, textarea, button {

@@ -1,0 +1,114 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: linear-gradient(var(--background-laranja), white);
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    padding: 30px;
+}
+
+main{
+    width: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    width: 100%;    
+
+    border-radius: 17px;
+
+    padding: 23px;
+
+    background-color: var(--roxo-escuro);
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    border-radius: 5px;
+}
+
+.label{
+    color: var(--branco);
+    font-weight: bold;
+
+    margin-top: 13px;
+}
+
+.input{
+    outline: none;
+    border: none;
+    height: 26px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    color: var(--branco);
+    
+    font-weight: bold;
+    font-size: 13px;
+
+    margin-top: 20px;
+}
+
+.link{
+    cursor: pointer;
+    color: var(--texto-laranja);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.botao-autentificacao{
+    background-color: transparent;
+
+    padding: 7px;
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 15px;
+
+    transition: border 0.3s;
+    transition: color 0.3s;
+}
+
+.botao-entrar:hover{
+    border: 3px solid var(--texto-laranja);
+    color: var(--texto-laranja);
+}
+
+
+
+footer{
+    margin: 0;
+    padding: 0;
+}

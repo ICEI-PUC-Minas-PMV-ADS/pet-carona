@@ -1,11 +1,11 @@
 :root{
-    --background-laranja: #F78603;
-    --texto-laranja: #FFB803;
-    --roxo-escuro: #72368A;
-    --roxo-claro: #8E44AD;
-    --cinza: #C4C4C4;
-    --preto:#333333;
-    --branco:#ffffff;
+    --background-laranja:   #F78603;
+    --texto-laranja:        #FFB803;
+    --roxo-escuro:          #72368A;
+    --roxo-claro:           #8E44AD;
+    --cinza:                #C4C4C4;
+    --preto:                #333333;
+    --branco:               #ffffff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');

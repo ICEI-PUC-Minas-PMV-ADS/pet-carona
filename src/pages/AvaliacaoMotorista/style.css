@@ -1,0 +1,182 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(to bottom, var(--background-laranja) 0%, var(--branco) 100%);
+}
+
+.headerContainer {
+  display: flex;
+	justify-content: space-between;
+
+  height: 70px;
+  width: 100%;
+	margin-top: 13px;
+	padding: 0px 15px;
+}
+
+.mainContainer {
+    display: flex;
+		flex-direction: column;
+		align-items:center;
+
+
+    height: 86.1vh;
+    width: 100%;
+		margin-top: 30px;
+		padding: 0px 25px;
+}
+
+.logo {  
+    height: 64px;
+    width: 92px;
+}
+
+.sectionOneContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	height: 90px;
+	width: 100%;
+	column-gap: 20px;
+}
+
+.perfilImage {
+    height: 85px;
+    width: 85px;
+    border-radius: 9999px;
+}
+
+.viagensContainer{
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  height: 100%;
+  width: 70px;
+	row-gap: 9px;
+
+	font-size: 16px;
+	font-weight: 700;
+
+	color: var(--branco)
+}
+
+.avaliacaoContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  height: 100%;
+  width: 70px;
+	row-gap: 9px;
+	font-size: 16px;
+	font-weight: 700;
+
+	color: var(--branco)
+}
+
+.sectionTwoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 20;
+
+	height: 480px;
+	width: 100%;
+	min-width: 200px;
+
+	border-radius: 16px;
+	padding: 20px 25px 0px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 37px;
+
+	background-color: var(--roxo-claro);
+	color: var(--branco)
+}
+
+.cardAvaliacoes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: var(--branco);
+	color: var(--preto);
+	
+	height: 370px;
+	width: 100%;
+	min-width: 100px;
+	border-radius: 10px;
+	margin-top: 15px;	
+	padding: 32px 10px 38px;
+}
+
+.cardPerfil {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 85px;
+	font-size: 12px;
+	margin-top: 15px;
+	column-gap: 12px;
+}
+
+.historicoImage {
+	height: 65px;
+	width: 65px;
+	border-radius: 9999px;
+}
+
+.avaliacaoPerfil {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	row-gap: 8px;
+	height: 100%;
+}
+
+.botaoEnviar{
+	display: flex;	
+	background-color: transparent;
+	border-width: 0;
+	text-align: left;
+}
+
+.botaoVoltar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 15px;
+	border-radius: 10px;
+  border: none;
+	height: 26px;
+	width: 86px;
+}
+
+.dogContainer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dogImage {
+    display: flex;
+    height: 151px;
+    width: 375px;
+    position: absolute;
+    transform: translatey(-37px);
+    
+    
+}
+

@@ -5,3 +5,6 @@
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 ![X - 46](https://user-images.githubusercontent.com/62656936/168491487-6bcd44de-21df-48d2-844c-4ac2d7ec7c80.png)
+
+
+![X - 47](https://user-images.githubusercontent.com/62656936/168491615-ad2cad08-c46b-44ae-ad95-6ead32d1b442.png)

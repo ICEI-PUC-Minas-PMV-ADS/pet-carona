@@ -1,20 +1,19 @@
 :root{
-    --background-laranja: #F78603;
-    --texto-laranja: #FFB803;
-    --roxo-escuro: #72368A;
-    --roxo-claro: #8E44AD;
-    --cinza: #C4C4C4;
-    --preto:#333333;
-    --branco:#ffffff;
+    --background-laranja:   #F78603;
+    --texto-laranja:        #FFB803;
+    --roxo-escuro:          #72368A;
+    --roxo-claro:           #8E44AD;
+    --cinza:                #C4C4C4;
+    --preto:                #333333;
+    --branco:               #ffff;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     @media (max-width:1080px){
         font-size: 93.75%
@@ -37,7 +36,4 @@ h1, h2, h3,h4, h5, h6, strong {
 button {
     cursor: pointer;
 }
-[disabled]{
-    opacity: 0.6;
-    cursor: not-allowed;
-}
+

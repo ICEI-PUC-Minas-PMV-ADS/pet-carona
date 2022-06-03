@@ -22,11 +22,12 @@ if(buttonAuth.innerHTML.includes('ENTRAR')) {
             redirect('PerfilPassageiro.html')
         }
     })
-} else {
-    buttonAuth.addEventListener('click',(e) => {
-        if (emailInput.value && passwordInput.value && nameInput) {
-            redirect('Cadastro.html')
-        }
-    })
-}
+} 
+// else {
+//     buttonAuth.addEventListener('click',(e) => {
+//         if (emailInput.value && passwordInput.value && nameInput) {
+//             redirect('Cadastro.html')
+//         }
+//     })
+// }
 

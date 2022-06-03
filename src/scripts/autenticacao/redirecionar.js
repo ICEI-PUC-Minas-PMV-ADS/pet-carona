@@ -4,7 +4,7 @@
 const buttonAuth   = document.getElementById('botao-autentificacao');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('senha');
-const nameInput = document.getElementById('nome');
+// const nameInput = document.getElementById('nome');
 /**
  * Funcao dinamica para redirecionar a url
  */
@@ -25,7 +25,7 @@ if(buttonAuth.innerHTML.includes('ENTRAR')) {
 } 
 // else {
 //     buttonAuth.addEventListener('click',(e) => {
-//         if (emailInput.value && passwordInput.value && nameInput) {
+//         if (emailInput.value && passwordInput.value) {
 //             redirect('Cadastro.html')
 //         }
 //     })

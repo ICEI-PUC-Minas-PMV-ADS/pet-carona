@@ -32,13 +32,6 @@ buttonAuth.addEventListener('click', (e) => {
 	if (buttonAuth.innerHTML.includes('ENTRAR')) {
 		loginUser(emailInput.value, passwordInput.value);
 	} else {
-		let emailCadastro = emailInput.value;
-		for (let i = 0; i < dbUsuarios.usuarios.length; i++) {
-			let usuario = dbUsuarios.usuarios[i];
-			if (usuario.email === emailCadastro) {
-				return alert('Já existe um usuário com esse email.');
-			}
-		}
 		addUser(nameInput.value, emailInput.value, passwordInput.value);
 	}
 });
@@ -50,9 +43,9 @@ function loginUser(email, senha) {
 		if (email === usuario.email && senha === usuario.senha) {
 			usuarioAtual.email = usuario.email;
 			usuarioAtual.nome = usuario.nome;
+			sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtual));
+			return redirect('PerfilPassageiro.html');
 		}
-		sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtual));
-		redirect('PerfilPassageiro.html');
 	}
 	return alert('Senha ou email incorretos.');
 }
@@ -63,6 +56,13 @@ function addUser(nome, email, senha) {
 		email: email,
 		senha: senha,
 	};
+	for (let i = 0; i < dbUsuarios.usuarios.length; i++) {
+		let usuario = dbUsuarios.usuarios[i];
+		if (usuario.email === email) {
+			return alert('Já existe um usuário com esse email.');
+		}
+	}
 	dbUsuarios.usuarios.push(novoUsuario);
 	localStorage.setItem('usuarios', JSON.stringify(dbUsuarios));
+	redirect('Cadastro.html');
 }

@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipo Usuario</title>
-    <link rel="stylesheet" type="text/css"  href="./style.css" />
-    <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
+    <link rel="stylesheet" type="text/css"  href="../styles/tipousuario.css" />
+    <link rel="stylesheet" type="text/css"  href="../styles/global.css" />
+    <script defer src="../scripts/checarLogin.js"></script>
+    <script defer>
+        window.onload = () =>{
+            const usuarioAtual = JSON.parse(sessionStorage.getItem('usuarioAtual')).nome;
+            document.getElementById('nomeUsuario').innerHTML = usuarioAtual
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="logoContainer">         
-                <img class="logo" src="../../../public/logo.png" alt="">
+                <img class="logo" src="../../public/logo.png" alt="">
             </div>
         </header>
         <main>
-            <h1 class="textDeSaudacao">Olá Luis Othávio,</h1>
+            <h1 class="textDeSaudacao">Olá <span id="nomeUsuario"></span></h1>
             <p class="textEscolha"> escolha o modo na qual deseja utilizar</p>
             <div class="containerPrincipalEscolha">
                 <div class="containerEscolha">
                     <p>Encontre o motorista perfeito para o seu pet</p>
-                    <input type="button" value="PASSAGEIRO" class="button">
+                    <input type="button" onclick="location.href='PerfilPassageiro.html'" value="PASSAGEIRO" class="button">
                 </div>
                 <div class="containerEscolha">
                     <p>Aperte o cinto e dê carona para um pet</p>
-                    <input type="button" value="MOTORISTA" class="button">
+                    <input type="button" onclick="location.href='Autenticacao.html'" value="MOTORISTA" class="button">
                 </div>
             </div>
         </main>
         <footer>
             <div class="gatoContainer">
-                <img class="gato" src="../../../public/gato.png" alt="">
+                <img class="gato" src="../../public/cat.png" alt="">
             </div>
         </footer>
     </div>
-    <script type="text/javascript" src="./js/teste.js"></script>
 </body>
 </html>

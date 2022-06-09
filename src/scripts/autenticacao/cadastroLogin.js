@@ -2,7 +2,7 @@ const buttonAuth = document.getElementById('botao-autentificacao');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('senha');
 const nameInput = document.getElementById('nome');
-let usuarioAtual = {};
+let usuarioAtual = sessionStorage.getItem('usuarioAtual') || {};
 
 if (!localStorage.getItem('usuarios')) {
 	// Preenchimento inicial do localStorage para o primeiro acesso
@@ -11,6 +11,8 @@ if (!localStorage.getItem('usuarios')) {
 			{
 				id: '1',
 				nome: 'João Silva',
+                email: 'joao@gmail.com',
+                senha: 'joao',
 				endereco: 'Rua Pereira Neto, 456',
 				bairro: 'Mooca',
 				CEP: '01200-020',
@@ -43,8 +45,8 @@ function loginUser(email, senha) {
 		if (email === usuario.email && senha === usuario.senha) {
 			usuarioAtual.email = usuario.email;
 			usuarioAtual.nome = usuario.nome;
-			sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtual));
-			return redirect('PerfilPassageiro.html');
+			sessionStorage.setItem('usuarioAtual', JSON.stringify (usuarioAtual));
+			return redirect('TipoUsuario.html');
 		}
 	}
 	return alert('Senha ou email incorretos.');

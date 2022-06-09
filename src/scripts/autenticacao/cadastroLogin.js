@@ -43,8 +43,7 @@ function loginUser(email, senha) {
 	for (let i = 0; i < dbUsuarios.usuarios.length; i++) {
 		let usuario = dbUsuarios.usuarios[i];
 		if (email === usuario.email && senha === usuario.senha) {
-			usuarioAtual.email = usuario.email;
-			usuarioAtual.nome = usuario.nome;
+			let usuarioAtual = usuario;
 			sessionStorage.setItem('usuarioAtual', JSON.stringify (usuarioAtual));
 			return redirect('TipoUsuario.html');
 		}
@@ -57,6 +56,9 @@ function addUser(nome, email, senha) {
 		nome: nome,
 		email: email,
 		senha: senha,
+		endereco: 'Preencha aqui seu endereço',
+		bairro: 'Preencha aqui seu bairro',
+		CEP: 'Preencha aqui seu CEP'		
 	};
 	for (let i = 0; i < dbUsuarios.usuarios.length; i++) {
 		let usuario = dbUsuarios.usuarios[i];

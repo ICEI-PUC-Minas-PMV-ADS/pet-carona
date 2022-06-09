@@ -35,7 +35,10 @@ main{
 .botaoLogin:hover {
     border-color: var(--background-laranja);
     color: var(--background-laranja);
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 0713d8e552d450727793b300c36099160cca340b
 }
 
 footer{

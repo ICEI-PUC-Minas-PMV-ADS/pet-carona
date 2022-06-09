@@ -1,14 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avaliacao Passageiro</title>
+    <title>Perfil Passageiro</title>
+    <link rel="stylesheet" type="text/css"  href="./menu.css" />
     <link rel="stylesheet" type="text/css"  href="./style.css" />
     <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
 </head>
-<body>
-    <script type="text/javascript" src="./js/teste.js"></script>
+<body class="container">
+    <header class="headerContainer">
+      <img class="logo" src="./../../../public/logo.png" alt="logo"/>
+      <div id="containerMenu" class="containerMenu">
+        <img id="botaoMenu" src="../../../public/menu.png" alt="menu"/>
+        <div id="menu" class="menu" style="visibility: hidden;">
+          <h1>Menu</h1>
+          <hr>
+          <a>Atualizar Perfil</a>
+          <a>Visualizar Perfil</a>
+          <a>Avaliar</a>
+          <a>logout</a>
+        </div>
+      </div>
+    </header>
+    <main class="mainContainer">
+        <section class="sectionOneContainer">
+          <img class="perfilImage" src="./../../../public/perfil1.png" alt="foto do perfil"/>
+          <span class="viagensContainer">
+            <p>400</p>
+            <p>Viagens</p>
+          </span>
+          <span class="avaliacaoContainer">
+            <p>50pts</p>
+            <p>Avaliação</p>
+          </span>
+        </section>
+        <section class="sectionTwoContainer">
+          <p>Avaliações dos motoristas</p>
+          <div id="cardAvaliacoes" class="cardAvaliacoes">
+            <p>Histórico de viagens</p>
+            <span id="render"></span>    
+          </div>
+          <button id="botaoVoltar" class="botaoVoltar">Voltar</button>
+        </section>
+      </main>     
+      <figure class="dogContainer">
+        <img class="dogImage" src="./../../../public/dog.png" alt="cachorro"/>
+      </figure>
+    <script type="module" src="./js/avaliacao.js"></script>
+    <script type="module" src="./js/menu.js"></script>
 </body>
 </html>

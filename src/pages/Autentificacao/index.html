@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autentificacao</title>
-    <link rel="stylesheet" type="text/css"  href="./style.css" />
-    <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
-</head>
-<body>
-    <script type="text/javascript" src="./js/teste.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Autentificacao</title>
+
+        <!--
+            Import arquivos css
+        -->
+        <link rel="stylesheet" type="text/css"  href="./style.css" />
+        <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!--
+                Cabecalho (Logo + Menu)
+            -->
+            <header>
+                <div class="logo-contianer">
+                    <img src="./../../../Public/Images/logo.png" alt="logo">
+                </div>
+            </header>
+
+            <!--
+                Container main onde vai o conteudo de cada pagina
+            -->
+            <main>
+                <form action="" class="form-container">
+                    <div class="input-container">
+                        <label for="email" class="label">Email</label>
+                        <input type="text" class="input" name="email">
+                    </div>
+                    <div class="input-container" id="nome-input">
+                        <label for="nome" class="label">Nome</label>
+                        <input type="text" class="input" name="nome">
+                    </div>
+                    <div class="input-container">
+                        <label for="senha" class="label">Senha</label>
+                        <input type="password" class="input" name="senha">
+                    </div>
+                    <button class="botao-autentificacao" id="botao-autentificacao"></button>
+                    <div class="container-link" id="container-cadastar">
+                        <p>E novo por aqui?</p>
+                        <span class="link" id="link-cadastrar">Cadastre-se</span>
+                    </div>
+                    <div class="container-link" id="container-entrar">
+                        <p>Ja possui uma conta ?</p>
+                        <span class="link" id="link-entrar">Entrar</span>
+                    </div>
+                </form>
+            </main>
+
+            <!--
+                Pe da pagina (Imagem do cachorro ou gato)
+            -->
+            <footer>
+                <img src="./../../../Public/Images/doguinho-tamanho-IPHONE11pro 2.png" alt="dog">
+            </footer>
+        </div>
+
+        <!--
+            Import do codigo javascript
+        -->
+        <script type="text/javascript" src="./js/mostrarEsconder.js"></script>
+        <script type="text/javascript" src="./js/redirecionar.js"></script>
+    </body>
 </html>

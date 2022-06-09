@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "pet-carona",
+  "version": "1.0.0",
+  "description": "`CURSO`\r Análise e Desenvolvimento de Sistemas\r `DISCIPLINA`\r Projeto: desenvolvimento de Aplicação Web Front-End\r `SEMESTRE`",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona#readme"
+}

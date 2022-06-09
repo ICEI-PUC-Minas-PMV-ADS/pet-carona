@@ -44,7 +44,7 @@ A equipe está organizada da seguinte maneira:
 
 -	`Product Owner`: Jaynne Nunes
 -	`Tech Lead`: Igor Gonçalo
--	`Equipe de Desenvolvimento`:Igor Gonçalo, Luis Silva, Leidiane Nascimento,
+-	`Equipe de Desenvolvimento`: Igor Gonçalo, Luis Silva, Leidiane Nascimento,
 -	`Equipe de Design`: Igor Gonçalo
 
 ### Ferramentas

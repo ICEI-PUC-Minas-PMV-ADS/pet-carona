@@ -14,18 +14,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-# Redirecionamento para tela de Autentificacao
-
-![X - 38](https://user-images.githubusercontent.com/62656936/173161466-dd6fb0c3-ec57-4300-9cf5-e356957b25ec.png)
-
-Ao clicar no botao de login o usuario sera redirecionado para tela de autentificacao
-
-![X - 40](https://user-images.githubusercontent.com/62656936/173161468-087b5eea-3836-4c72-9832-971c16df31c8.png)
-
 # Alternar entre formulario de cadastro e o de autentificacao
 
-![X - 40](https://user-images.githubusercontent.com/62656936/173161468-087b5eea-3836-4c72-9832-971c16df31c8.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/62656936/173162311-9cf6daa4-a2bd-47a0-8cae-5c873dfd917a.gif)
 
-Ao clicar no botao de login o usuario sera redirecionado para tela de autentificacao
 
-![X - 41](https://user-images.githubusercontent.com/62656936/173161470-dc5a9a86-6810-4a93-82bb-f12b27c9ce38.png)
+![image](https://user-images.githubusercontent.com/62656936/173162379-7206b655-8f95-4203-b1ef-d055f7a6d5bf.png)

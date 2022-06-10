@@ -1,17 +1,29 @@
-// TODO: turn gender radio
-
 let editButton = document.getElementById('edit-button');
 const editableFields = document.getElementsByClassName('editable');
 let usuarioAtual = JSON.parse(sessionStorage.getItem('usuarioAtual'));
+let listaUsuarios = JSON.parse(localStorage.getItem('usuarios')).usuarios;
+let editable = false;
 document.getElementById('nomeUsuario').innerHTML = usuarioAtual.nome;
 document.getElementById('enderecoUsuario').innerHTML = usuarioAtual.endereco;
 document.getElementById('bairroUsuario').innerHTML = usuarioAtual.bairro;
 document.getElementById('CEPUsuario').innerHTML = usuarioAtual.CEP;
 
-// Edição das informações contidas nos campos
-let editable = false;
+// Busca o usuario atual e atualiza a "base de dados" de acordo com as ultimas modificacoes
+let updateUsers = function () {
+	let usuarioAntes = listaUsuarios.find(
+		(usuario) => usuario.email === usuarioAtual.email,
+	);
+	let index = listaUsuarios.indexOf(usuarioAntes);
+	listaUsuarios[index] = usuarioAtual;
+	localStorage.setItem(
+		'usuarios',
+		JSON.stringify({
+			usuarios: listaUsuarios,
+		})
+	);
+};
 
-function updateStorage() {
+let updateStorage = function () {
 	let nomeAtualizado = document.getElementById('nomeUsuario').innerHTML;
 	let enderecoAtualizado = document.getElementById('enderecoUsuario').innerHTML;
 	let bairroAtualizado = document.getElementById('bairroUsuario').innerHTML;
@@ -23,9 +35,9 @@ function updateStorage() {
 		bairro: bairroAtualizado,
 		CEP: CEPAtualizado,
 	};
-	console.log(usuarioAtualizado);
 	sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtualizado));
-}
+	updateUsers();
+};
 
 let turnEditable = function () {
 	updateStorage();
@@ -44,5 +56,4 @@ let turnEditable = function () {
 		}
 	}
 };
-
 editButton.addEventListener('click', turnEditable);

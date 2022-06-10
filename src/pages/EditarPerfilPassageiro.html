@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css"  href="../styles/perfilpassageiro.css" />
     <link rel="stylesheet" type="text/css"  href="../styles/global.css" />
     <script src="../scripts/checarLogin.js"></script>
-    <script defer src="../scripts/editarPerfilPassageiro.js"></script>
 </head>
 <body>
     <img class="logo" src="../../public/logo.png"/>
@@ -40,11 +39,11 @@
                     <p>CEP:</p>
                 </div>
                 <div class="passenger-info-values">
-                    <p class="editable"><span id="nomeUsuario"></span></p>
+                    <p id="nomeUsuario" class="editable"></p>
                     <p>Feminino</p>
-                    <p class="editable"><span id="enderecoUsuario"></span></p>
-                    <p class="editable"><span id="bairroUsuario"></span></p>
-                    <p class="editable"><span id="CEPUsuario"></span></p>
+                    <p id="enderecoUsuario" class="editable"></p>
+                    <p id="bairroUsuario" class="editable"></p>
+                    <p id="CEPUsuario" class="editable"></p>
                 </div>
             </div>
             <div class="pet-images">
@@ -68,9 +67,9 @@
             <div class="back-button">
                 Voltar
             </div>
-
         </div>
     </main>
     <img class="dog-bottom" src="../../public/dog-iphone-pro.png"/>
+    <script src="../scripts/editarPerfilPassageiro.js"></script>
   </body>
 </html>

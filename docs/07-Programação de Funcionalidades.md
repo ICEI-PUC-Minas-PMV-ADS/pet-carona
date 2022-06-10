@@ -18,5 +18,4 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/62656936/173162311-9cf6daa4-a2bd-47a0-8cae-5c873dfd917a.gif)
 
-
-![image](https://user-images.githubusercontent.com/62656936/173162379-7206b655-8f95-4203-b1ef-d055f7a6d5bf.png)
+![Captura de Tela (126)](https://user-images.githubusercontent.com/62656936/173162531-7a7b1ce8-5198-42ab-ad8c-8fe58f5e17e1.png)

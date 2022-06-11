@@ -7,18 +7,47 @@ let usuarioAtual = sessionStorage.getItem('usuarioAtual') || {};
 if (!localStorage.getItem('usuarios')) {
 	// Preenchimento inicial do localStorage para o primeiro acesso
 	const dadosIniciais = {
-		usuarios: [
-			{
-				id: '1',
-				nome: 'João Silva',
-                email: 'joao@gmail.com',
-                senha: 'joao',
-				endereco: 'Rua Pereira Neto, 456',
-				bairro: 'Mooca',
-				CEP: '01200-020',
-				funcao: 'motorista',
-			},
-		],
+		usuarios: [{
+			nome: 'João Silva',
+			avaliacao: '4.9',
+			viagens: '13',
+			perfil: 'passageiro',
+			modeloCarro: 'Fiat',
+			tipoCarro: 'SUV',
+			portePet: 'P',
+			ajudaCusto: '10 reais'
+		},
+		{
+			nome: 'Maria Paula',
+			avaliacao: '4.1',
+			viagens: '13',
+			perfil: 'passageiro',
+			modeloCarro: 'Fiat',
+			tipoCarro: 'SUV',
+			portePet: 'P',
+			ajudaCusto: '10 reais'
+		},
+		{
+			nome: 'Celso Ramos',
+			avaliacao: '5.0',
+			viagens: '13',
+			perfil: 'motorista',
+			modeloCarro: 'Fiat',
+			tipoCarro: 'SUV',
+			portePet: 'P',
+			ajudaCusto: '10 reais'
+		},
+		{
+			nome: 'Felicia Alves',
+			avaliacao: '4.0',
+			viagens: '13',
+			perfil: 'motorista',
+			modeloCarro: 'Fiat',
+			tipoCarro: 'SUV',
+			portePet: 'P',
+			ajudaCusto: '10 reais'
+		}]
+		
 	};
 	localStorage.setItem('usuarios', JSON.stringify(dadosIniciais));
 }

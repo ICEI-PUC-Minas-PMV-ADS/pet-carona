@@ -2,7 +2,8 @@ const buttonAuth = document.getElementById('botao-autentificacao');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('senha');
 const nameInput = document.getElementById('nome');
-let usuarioAtual = sessionStorage.getItem('usuarioAtual') || {};
+sessionStorage.setItem('usuarioAtual', JSON.stringify({}))
+let usuarioAtual = {};
 
 if (!localStorage.getItem('usuarios')) {
 	// Preenchimento inicial do localStorage para o primeiro acesso
@@ -87,7 +88,9 @@ function addUser(nome, email, senha) {
 		senha: senha,
 		endereco: 'Preencha aqui seu endereço',
 		bairro: 'Preencha aqui seu bairro',
-		CEP: 'Preencha aqui seu CEP'		
+		CEP: 'Preencha aqui seu CEP',
+		avaliacao: '0.0',
+		viagens: '0'
 	};
 	for (let i = 0; i < dbUsuarios.usuarios.length; i++) {
 		let usuario = dbUsuarios.usuarios[i];

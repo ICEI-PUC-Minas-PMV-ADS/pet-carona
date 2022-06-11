@@ -38,6 +38,17 @@
                     ajudaCusto: 'Insira aqui a ajuda de custo desejada'
                 }
                 sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtualizado));
+                let usuarioAntes = listaUsuarios.find(
+                    (usuario) => usuario.email === usuarioAtual.email,
+                );
+                let index = listaUsuarios.indexOf(usuarioAntes);
+                listaUsuarios[index] = usuarioAtualizado;
+                localStorage.setItem(
+                    'usuarios',
+                    JSON.stringify({
+                        usuarios: listaUsuarios,
+                    })
+                );
             });
         }
     </script>

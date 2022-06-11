@@ -2,17 +2,19 @@ const usuariosTotal = JSON.parse(localStorage.getItem('usuarios')).usuarios;
 const usuarioAtual = JSON.parse(sessionStorage.getItem('usuarioAtual'));
 
 // Renderiza cada container com as informaçoes do usuario
-passageiros = usuariosTotal.filter(
+motoristas = usuariosTotal.filter(
 	(usuario) => usuario.perfil === 'motorista' && usuario.email !== usuarioAtual.email,
 );
 
 let containerMotoristas = document.getElementById('mainContainer');
 const buttonVoltar = document.getElementById('buttonVoltar');
 
-console.log(containerMotoristas);
-
 // Exibindo dinamicamente as informações de cada usuário
-passageiros.map((usuario) => {
+motoristas.map((usuario) => {
+	let button = document.createElement('input');
+	button.setAttribute('type', 'button');
+	button.setAttribute('value', 'Ver Motorista');
+	button.className = 'button';
 	let motoristaContainer = document.createElement('div');
 	let imagemContainer = document.createElement('div');
 	imagemContainer.innerHTML += '<img class="foto" src="../../public/placeholder.png" alt="">';
@@ -31,8 +33,9 @@ passageiros.map((usuario) => {
 	divInformacoes.appendChild(nome);
 	divInformacoes.appendChild(avaliacao);
 	divInformacoes.appendChild(viagens);
+	divInformacoes.appendChild(button);
 	motoristaContainer.className = 'caracteristicasMotorista';
 	motoristaContainer.appendChild(imagemContainer);
-    motoristaContainer.appendChild(divInformacoes);
+	motoristaContainer.appendChild(divInformacoes);
 	containerMotoristas.appendChild(motoristaContainer);
 });

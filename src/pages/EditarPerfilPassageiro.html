@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil Passageiro</title>
-    <link rel="stylesheet" type="text/css"  href="./../PerfilPassageiro/style.css" />
-    <link rel="stylesheet" type="text/css"  href="./../../styles/global.css" />
-    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" type="text/css"  href="../styles/perfilpassageiro.css" />
+    <link rel="stylesheet" type="text/css"  href="../styles/global.css" />
+    <script src="../scripts/checarLogin.js"></script>
 </head>
 <body>
-    <img class="logo" src="./../../../public/logo.png"/>
+    <img class="logo" src="../../public/logo.png"/>
     <main class="content">
         <div class="passenger-score-and-image">
-            <img class="profile-picture" src="./../../../public/woman-cat.png"/>
+            <img class="profile-picture" src="../../public/woman-cat.png"/>
             <div class="score-columns">
                 <div class="score-values">
                     <span class="score-info">2.554</span>
@@ -33,23 +33,21 @@
             <div class="passenger-columns">
                 <div class="passenger-info-fields">
                     <p>Nome:</p>
-                    <p>Sexo:</p>
                     <p>Endereço:</p>
                     <p>Bairro:</p>
                     <p>CEP:</p>
                 </div>
                 <div class="passenger-info-values">
-                    <p class="editable">Gislaine Castro Nevez</p>
-                    <p>Feminino</p>
-                    <p class="editable">Rua Bresser, 575</p>
-                    <p class="editable">Bras</p>
-                    <p class="editable">01227-100</p>
+                    <p id="nomeUsuario" class="editable"></p>
+                    <p id="enderecoUsuario" class="editable"></p>
+                    <p id="bairroUsuario" class="editable"></p>
+                    <p id="CEPUsuario" class="editable"></p>
                 </div>
             </div>
             <div class="pet-images">
-                <img class="pet-image" src="./../../../public/dog1.png"/>
-                <img class="pet-image" src="./../../../public/dog2.png"/>
-                <img class="pet-image" src="./../../../public/dog3.png"/>
+                <img class="pet-image" src="../../public/dog1.png"/>
+                <img class="pet-image" src="../../public/dog2.png"/>
+                <img class="pet-image" src="../../public/dog3.png"/>
             </div>
             <div class="pet-info">
                 <div class="pet-breeds">
@@ -64,13 +62,12 @@
                 </div>
             </div>
 
-            <div class="back-button">
-                Voltar
+            <div class="back-button" onclick="location.href='ListaMotoristas.html'">
+                Pedir carona
             </div>
-
         </div>
     </main>
-    <img class="dog-bottom" src="./../../../public/dog-iphone-pro.png"/>
-    <script type="text/javascript" src="./js/teste.js"></script>
+    <img class="dog-bottom" src="../../public/dog-iphone-pro.png"/>
+    <script src="../scripts/editarPerfilPassageiro.js"></script>
   </body>
 </html>

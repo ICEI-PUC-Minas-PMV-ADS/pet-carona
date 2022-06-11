@@ -48,6 +48,7 @@ main{
 
 .containerEscolha {
     background-color: var(--roxo-claro);
+    z-index: 5;
     
     height: 102px;
 
@@ -67,11 +68,11 @@ main{
 
 .button {
     margin-top: 20px;
-    
+    cursor: pointer;
     font-size: 16px;
     color: var(--branco);
     font-weight: bold;
-
+    z-index: 10;
     outline: none;
 
     background-color: transparent;
@@ -83,15 +84,21 @@ main{
 }
 
 .gatoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
+    display: none;
 }
 
 .gato {
     height: 350px;
     width: 100%;
+}
+
+@media (max-width: 580px) {
+    .gatoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+    }
 }

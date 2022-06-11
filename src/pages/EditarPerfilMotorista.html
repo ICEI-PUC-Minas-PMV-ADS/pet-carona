@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil Motorista</title>
+    <link rel="stylesheet" type="text/css"  href="../styles/perfilpassageiro.css" />
+    <link rel="stylesheet" type="text/css"  href="../styles/global.css" />
+    <script src="../scripts/checarLogin.js"></script>
+</head>
+<body>
+    <img class="logo" src="../../public/logo.png"/>
+    <main class="content">
+        <div class="passenger-score-and-image">
+            <img class="profile-picture" src="../../public/woman-cat.png"/>
+            <div class="score-columns">
+                <div class="score-values">
+                    <span class="score-info">2.554</span>
+                    <span class="score-info">4.9</span>
+                </div>
+                <div class="score-names">
+                    <span class="score-info">Viagens</span>
+                    <span class="score-info">Avaliação</span>
+                </div>
+            </div>
+            <div id="edit-button">
+                Editar perfil
+            </div>
+        </div>
+        <div class="passenger-info">
+            <span class="title">Dados pessoais:</span>
+            <div class="passenger-columns">
+                <div class="passenger-info-fields">
+                    <p>Nome:</p>
+                    <p>Endereço:</p>
+                    <p>Bairro:</p>
+                    <p>CEP:</p>
+                </div>
+                <div class="passenger-info-values">
+                    <p id="nomeUsuario" class="editable"></p>
+                    <p id="enderecoUsuario" class="editable"></p>
+                    <p id="bairroUsuario" class="editable"></p>
+                    <p id="CEPUsuario" class="editable"></p>
+                </div>
+            </div>
+            <br/>
+            <span class="title">Informações do veículo:</span>
+            <div class="passenger-columns">
+                <div class="passenger-info-fields">
+                    <p>Modelo:</p>
+                    <p>Tipo:</p>
+                </div>
+                <div class="passenger-info-values">
+                    <p id="modeloCarro" class="editable">testeeeeeeeeeeee</p>
+                    <p id="tipoCarro" class="editable">testeeeeeeeeeeee</p>
+                </div>
+            </div>
+            <br/>
+            <span class="title">Informações da viagem:</span>
+            <div class="passenger-columns">
+                <div class="passenger-info-fields">
+                    <p>Porte pets:</p>
+                    <p>Valor da ajuda de custo:</p>
+                </div>
+                <div class="passenger-info-values">
+                    <p id="portePet" class="editable">testeeeeeeeeeeee</p>
+                    <p id="ajudaCusto" class="editable">testeeeeeeeeeeee</p>
+                </div>
+            </div>
+            <div class="back-button" onclick="location.href='ListaPassageiros.html'">
+                Oferecer carona
+            </div>
+        </div>
+    </main>
+    <img class="dog-bottom" src="../../public/dog-iphone-pro.png"/>
+    <script src="../scripts/editarPerfilMotorista.js"></script>
+  </body>
+</html>

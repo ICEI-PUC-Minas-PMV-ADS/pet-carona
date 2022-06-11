@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo Usuario</title>
+    <link rel="stylesheet" type="text/css"  href="../styles/tipousuario.css" />
+    <link rel="stylesheet" type="text/css"  href="../styles/global.css" />
+    <script defer src="../scripts/checarLogin.js"></script>
+    <script defer>
+        let usuarioAtual = JSON.parse(sessionStorage.getItem('usuarioAtual'));
+        if ('perfil' in usuarioAtual) {
+            usuarioAtual.perfil === 'passageiro' 
+            ? window.location.href = 'EditarPerfilPassageiro.html'
+            : window.location.href = 'EditarPerfilMotorista.html'
+        }
+        window.onload = () =>{
+            const passageiroButton = document.getElementById('opcaoPassageiro');
+            const motoristaButton = document.getElementById('opcaoMotorista');
+            const usuarioAtual = JSON.parse(sessionStorage.getItem('usuarioAtual'));
+            document.getElementById('nomeUsuario').innerHTML = usuarioAtual.nome
+
+            passageiroButton.addEventListener('click', () => {
+                let usuarioAtualizado = {
+                    ...usuarioAtual,
+                    perfil: 'passageiro'
+                }
+                sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtualizado));
+            });
+            motoristaButton.addEventListener('click', () => {
+                let usuarioAtualizado = {
+                    ...usuarioAtual,
+                    perfil: 'motorista',
+                    modeloCarro: 'Insira aqui o modelo do veículo',
+                    tipoCarro: 'Insira aqui o tipo do veículo',
+                    portePet: 'Insira aqui o porte dos pets para a carona',
+                    ajudaCusto: 'Insira aqui a ajuda de custo desejada'
+                }
+                sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtualizado));
+                let usuarioAntes = listaUsuarios.find(
+                    (usuario) => usuario.email === usuarioAtual.email,
+                );
+                let index = listaUsuarios.indexOf(usuarioAntes);
+                listaUsuarios[index] = usuarioAtualizado;
+                localStorage.setItem(
+                    'usuarios',
+                    JSON.stringify({
+                        usuarios: listaUsuarios,
+                    })
+                );
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logoContainer">         
+                <img class="logo" src="../../public/logo.png" alt="">
+            </div>
+        </header>
+        <main>
+            <h1 class="textDeSaudacao">Olá <span id="nomeUsuario"></span></h1>
+            <p class="textEscolha"> escolha o modo na qual deseja utilizar</p>
+            <div class="containerPrincipalEscolha">
+                <div class="containerEscolha">
+                    <p>Encontre o motorista perfeito para o seu pet</p>
+                    <input type="button" onclick="location.href='EditarPerfilPassageiro.html'" value="PASSAGEIRO" id="opcaoPassageiro" class="button">
+                </div>
+                <div class="containerEscolha">
+                    <p>Aperte o cinto e dê carona para um pet</p>
+                    <input type="button" onclick="location.href='EditarPerfilMotorista.html'" id="opcaoMotorista" value="MOTORISTA" class="button">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="gatoContainer">
+                <img class="gato" src="../../public/cat.png" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

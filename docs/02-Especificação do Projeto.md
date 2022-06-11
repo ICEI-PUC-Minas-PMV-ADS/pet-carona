@@ -30,10 +30,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Regina Cunha| Realizar a filtragem do motorista pelo sexo.| Se sentir mais segura na viagem.|
+|Regina Cunha| Escolher motoristas com carros maiores.| Se sentir mais segura na viagem.|
 |Jessica Oliveira Alves|Utilizar a pesquisa da localidade por motoristas disponíveis próximo ao meu bairro.|Otimizar o máximo de tempo da viagem até o meu destino.|
 |Carlos Magno|Verificar os motoristas selecionados nas corridas anteriores e a disponibilidade deles.|Conseguir um processo de agendamento mais rápido, combinando corridas apenas com motoristas que topem transportar animais de grande porte.|
-|João Francisco|Verificar pelo site os motoristas disponíveis para corrida.|Realizar a solicitação de corrida, mais rapidamente.|
+|João Francisco|Verificar pelo site os motoristas disponíveis para corrida.|Realizar a solicitação de corrida mais rapidamente.|
 |João Francisco|Verificar os motoristas que precisam de ajuda de custo e os valores.|Poder retribuir de alguma forma a ajuda destas pessoas voluntárias.|
 
 ## Requisitos

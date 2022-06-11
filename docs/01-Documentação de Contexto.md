@@ -24,7 +24,7 @@ O objetivo deste projeto é disponibilizar uma plataforma democrática de conex�
 
 ● Dispor de um mecanismo de cadastro simplificado com o preenchimento de diferentes categorias que permita o cruzamento de dados de perfis de passageiros e motoristas para sugerir “matches” que resultem em corridas. 
 
-● Disponibilizar uma configuração de remuneração totalmente opcional, a critério do motorista e limitada por um teto padrão, a fim de configurar apenas como ajuda de custo e não distorcer a proposta da plataforma de ser um serviço acessível. 
+● Disponibilizar uma remuneração totalmente opcional, a critério do motorista e limitada por um teto padrão, a fim de configurar apenas como ajuda de custo e não distorcer a proposta da plataforma de ser um serviço acessível. 
 
 ## Justificativa
 

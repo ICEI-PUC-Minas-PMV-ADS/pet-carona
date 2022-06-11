@@ -13,3 +13,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
+# Alternar entre formulario de cadastro e o de autentificacao
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/62656936/173162311-9cf6daa4-a2bd-47a0-8cae-5c873dfd917a.gif)
+
+![Captura de Tela (126)](https://user-images.githubusercontent.com/62656936/173162531-7a7b1ce8-5198-42ab-ad8c-8fe58f5e17e1.png)

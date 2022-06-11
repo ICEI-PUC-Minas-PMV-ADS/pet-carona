@@ -19,20 +19,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20carlos.png)|**Idade:** 33 anos - **Ocupação:** Assistente administrativo de uma empresa de borracha localizada em Belo Horizonte. |**Pets:** Possui um Cadela chamada Mel, que possui 3 anos, na qual divide a guarda dela com sua ex esposa. Está em boas condições de saúde. |
 |**Motivações:** Com o desejo de ter uma condição melhor após anos, Carlos está cursando uma graduação para adquirir um emprego melhor e assim conseguir uma melhor condição de vida. |**Frustrações:** Não possuir veículo para transportar sua cachorra para os passeios que ela tanto adora.  |**História:** Nascido em Belo Horizonte, formou o ensino médio é teve que começar a trabalhar cedo para ajudar em casa. Foi casado durante três anos, mas se separou é resolveu voltar aos estudos. Após 14 anos começou a sua graduação em Administração na PUC Minas é forma agora no final de 2024.|
 
-|   Carol Magalhães     |                                    |                |
-|--------------------|------------------------------------|----------------------------------------|
-|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20carol.png)|**Idade:** 38 anos - **Ocupação:** Design, trabalha em uma empresa desenvolvendo produtos. Mãe divorciada, de um menino de 15 anos, uma menina de 13 anos e um cachorro de grande porte. |**Pets:** Thor, cachorro de grande porte, com 8 anos de idade que precisa sair para passear pelo menos 2 vezes ao dia, devido ao seu porte ele precisa andar bastante para controle do peso. |
-|**Motivações:** Pouco tempo para fazer todas as atividades de sua rotina; Querer seu cachorro sempre saudável; Não possui carro. |**Frustrações:** Não conseguir manter uma rotina na qual consiga levar mensalmente seu cachorro ao veterinário; Não conseguir manter uma rotina na qual consiga levar semanalmente seu cachorro ao veterinário; Não conseguir ir com seus filhos e o cachorro para o parque.   |**História:** Nascida em SP, se casou cedo, em seu casamento teve 2 filhos. Após alguns anos de casada, se divorciou. Para ajudar na adaptação de toda essa mudança, adotaram Thor para fazer companhia a família. Hoje ela vive bem, mas devido a rotina de estudo, trabalho, cuidar dos filhos, cuidar da casa quase não sobra tempo pra dar toda atenção necessária a Thor.|
-
 |   João Francisco      |                                    |                |
 |--------------------|------------------------------------|----------------------------------------|
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20joao.png)|**Idade:** 25 anos - **Ocupação:** Comerciante e responsável por uma ONG de resgate de cães de rua. Abriga cerca de 30 cães no espaço de sua ONG, com a ajuda de voluntários.  |**Pets:** Cerca de 30, todos adotados em situação de rua, em tratamento para serem disponibilizados para adoção. |
 |**Motivações:** Muitos cães para levar a veterinário e tratamentos médicos; Dedicado a tentar dar o suporte necessário a esses animais em situação vulnerável. |**Frustrações:** Nem sempre está disponível na ONG para levá-los em seu carro, e nem todos os voluntários possuem carro ou CNH; Falta de recursos financeiros para manter todos os custos da instituição; Falta de mais de um veículo próprio para poder transportar todos os animais quando é necessário.  |**História:** Filho de comerciantes, João administra com os pais a loja de eletrônicos da família no centro de São Paulo. Como projeto pessoal, criou a ONG para ajudar cachorros abandonados nas ruas da capital, com recursos próprios e doações. Possui apenas um carro de passeio para transportar os cães. |
-   
-|   Ana Lúcia      |                                    |                |
-|--------------------|------------------------------------|----------------------------------------|
-|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pet-carona/blob/main/docs/img/personagem%20-%20ana.jpg)|**Idade:** 75 anos - **Ocupação:** Aposentada.  |**Pets:** 1 gata, chamada Siena, que possui 10 anos de idade e vários problemas de saúde. |
-|**Motivações:** Ana Lúcia possui problemas de locomoção por conta da idade e precisa de acompanhamento médico semanal; Ela não dirige, portanto, levar Siena ao veterinário é uma tarefa difícil e desgastante; Transportes particulares não cabem no seu orçamento  |**Frustrações:** O veterinário fica longe da casa de Ana Lúcia; Por suas dificuldades de locomoção, utilizar o transporte público com a gata é inviável; As opções disponíveis de transporte são muito caras para o orçamento de Ana Lúcia  |**História:** Veio morar em uma cidade pequena para diminuir os custos de vida com a aposentadoria ; Não possui filhos que moram na mesma cidade; Possui a gata como sua principal companhia.   |
 
 ## Histórias de Usuários
 
@@ -40,14 +30,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Regina Cunha| Realizar a filtragem do motorista pelo sexo.| Se sentir mais segura na viagem.|
+|Regina Cunha| Escolher motoristas com carros maiores.| Se sentir mais segura na viagem.|
 |Jessica Oliveira Alves|Utilizar a pesquisa da localidade por motoristas disponíveis próximo ao meu bairro.|Otimizar o máximo de tempo da viagem até o meu destino.|
 |Carlos Magno|Verificar os motoristas selecionados nas corridas anteriores e a disponibilidade deles.|Conseguir um processo de agendamento mais rápido, combinando corridas apenas com motoristas que topem transportar animais de grande porte.|
-|Carol Magalhães|Pesquisar os motoristas pelo filtro do tipo e tamanho do veículo que possui.|Acessar a opção de realizar a viagem em um veículo confortável.|
-|Carol Magalhães|Verificar as notas e comentários que os usuários deram aos motoristas cadastrados.|Possuir alguma referência de segurança.|
-|João Francisco|Verificar pelo site os motoristas disponíveis para corrida.|Realizar a solicitação de corrida, mais rapidamente.|
+|João Francisco|Verificar pelo site os motoristas disponíveis para corrida.|Realizar a solicitação de corrida mais rapidamente.|
 |João Francisco|Verificar os motoristas que precisam de ajuda de custo e os valores.|Poder retribuir de alguma forma a ajuda destas pessoas voluntárias.|
-|Ana Lúcia|Realizar o direcionamento do contato dos motoristas identificados pela plataforma para o WhatsApp.|Realizar agendamento das corridas e definição dos detalhes (horário, local etc)|
 
 ## Requisitos
 
@@ -59,12 +46,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis sob os seguintes parâmetros:  1) Região onde mora, 2) Região disponível para corridas,  3) Horários e dias da semana disponíveis,  4) Se cobra ajuda de custo e  5) Sexo do motorista.  | ALTA | 
-|RF-002| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de passageiro:  1) Região onde mora,  2) Região que costuma frequentar nas corridas,  3) Horários e dias da semana de preferência,  4) Espécie e porte dos pets,  5) Preferência de sexo dos motoristas e  6) Número de celular utilizado no WhatsApp.   |ALTA |
-|RF-003| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil do motorista:  1) Tipo e tamanho de veículo que possui, 2) Disponibilidade de horário e dia da semana,  3) Porte de pets e quantidade que pode transportar,  4) Sexo,  5) Se precisa de ajuda de custo, 6) Valor da ajuda de custo,  7) Número de celular utilizado no WhatsApp.  | ALTA | 
-|RF-004| O site deve permitir a conexão entre motoristas e passageiros, após realizada a busca, direcionando-os para o ambiente do WhatsApp com seus respectivos números cadastrados.    |ALTA |
-|RF-005| O site deve permitir a classificação dos motoristas com comentários e notas de 1 a 5 após as corridas. Essas notas geram um ranking visível aos passageiros.     |BAIXA |
-|RF-006| O site deve permitir a classificação dos passageiros com comentários e notas de 1 a 5 após as corridas. Essas notas geram um ranking visível aos motoristas   |BAIXA|
+|RF-001| O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis.  | ALTA | 
+|RF-001| O site deve apresentar um mecanismo de busca para os motoristas pesquisarem os passageiros disponíveis.  | ALTA |
+|RF-002| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de passageiro:  endereço, bairro, CEP, e pets.   |ALTA |
+|RF-003| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de motorista: endereço, bairro, CEP, modelo do carro, porte dos pets a serem levados, e valor da ajuda de custo necessária. | ALTA | 
+|RF-004| O site deve permitir a conexão entre motoristas e passageiros, após realizada a busca, direcionando-os para o ambiente do WhatsApp com seus respectivos números cadastrados.    |BAIXA |
+
 
 ### Requisitos não Funcionais
 

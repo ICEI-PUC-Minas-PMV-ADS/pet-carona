@@ -19,8 +19,9 @@ O usuário consegue editar as informações exibidas no seu perfil através de u
 ![image](https://user-images.githubusercontent.com/103083123/173204722-c1fa463f-5dfc-4ff2-b03d-9ed0821ac817.png)
 
 
-## CT-01 - Visualizar motoristas disponíveis
+## CT-01 - Visualizar motoristas disponíveis e CT-02 - Visualizar passageiros disponíveis
 O usuário consegue ver uma listagem de motoristas disponíveis. Essa exibição ocorre dinamicamente de acordo com as informações contidas no localStorage (ou seja, a cada novo cadastro, um usuário é adicionado no localStorage e é renderizado um novo contâiner na página.)
+A lógica para visualizar os passageiros disponíveis segue a mesma linha de raciocínio.
 ![image](https://user-images.githubusercontent.com/103083123/173204610-fb7bbf56-8d7c-4f8a-8a05-086446fb1c44.png)
 ![image](https://user-images.githubusercontent.com/103083123/173204631-fffd690e-5597-42c1-8adb-2d5620c63193.png)
 

@@ -46,9 +46,10 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis sob os seguintes parâmetros:  1) Região onde mora, 2) Região disponível para corridas,  3) Horários e dias da semana disponíveis,  4) Se cobra ajuda de custo e  5) Sexo do motorista.  | ALTA | 
-|RF-002| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de passageiro:  1) Região onde mora,  2) Região que costuma frequentar nas corridas,  3) Horários e dias da semana de preferência,  4) Espécie e porte dos pets,  5) Preferência de sexo dos motoristas e  6) Número de celular utilizado no WhatsApp.   |ALTA |
-|RF-003| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil do motorista:  1) Tipo e tamanho de veículo que possui, 2) Disponibilidade de horário e dia da semana,  3) Porte de pets e quantidade que pode transportar,  4) Sexo,  5) Se precisa de ajuda de custo, 6) Valor da ajuda de custo,  7) Número de celular utilizado no WhatsApp.  | ALTA | 
+|RF-001| O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis.  | ALTA | 
+|RF-001| O site deve apresentar um mecanismo de busca para os motoristas pesquisarem os passageiros disponíveis.  | ALTA |
+|RF-002| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de passageiro:  endereço, bairro, CEP, e pets.   |ALTA |
+|RF-003| O formulário deve apresentar as seguintes informações a serem preenchidas pelo perfil de motorista: endereço, bairro, CEP, modelo do carro, porte dos pets a serem levados, e valor da ajuda de custo necessária. | ALTA | 
 |RF-004| O site deve permitir a conexão entre motoristas e passageiros, após realizada a busca, direcionando-os para o ambiente do WhatsApp com seus respectivos números cadastrados.    |BAIXA |
 
 

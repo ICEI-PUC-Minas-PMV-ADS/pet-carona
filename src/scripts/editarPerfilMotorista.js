@@ -32,6 +32,10 @@ let updateStorage = function () {
 	let enderecoAtualizado = document.getElementById('enderecoUsuario').innerHTML;
 	let bairroAtualizado = document.getElementById('bairroUsuario').innerHTML;
 	let CEPAtualizado = document.getElementById('CEPUsuario').innerHTML;
+	let modeloCarroAtualizado =document.getElementById('modeloCarro').innerHTML;
+	let tipoCarroAtualizado = document.getElementById('tipoCarro').innerHTML;
+	let portePetAtualizado = document.getElementById('portePet').innerHTML;
+	let ajudaCustoAtualizado = document.getElementById('ajudaCusto').innerHTML;
 
 	let usuarioAtualizado = {
 		...usuarioAtual,
@@ -39,6 +43,10 @@ let updateStorage = function () {
 		endereco: enderecoAtualizado,
 		bairro: bairroAtualizado,
 		CEP: CEPAtualizado,
+		modeloCarro: modeloCarroAtualizado,
+		tipoCarro: tipoCarroAtualizado,
+		portePet: portePetAtualizado,
+		ajudaCusto: ajudaCustoAtualizado
 	};
 	sessionStorage.setItem('usuarioAtual', JSON.stringify(usuarioAtualizado));
 	updateUsers();

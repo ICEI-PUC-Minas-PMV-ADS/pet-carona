@@ -25,6 +25,6 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/62656936/173402311-fe243238-2ab5-46ef-b201-c82cb6e7e430.gif)
 
-![Captura de Tela (129)](https://user-images.githubusercontent.com/62656936/173402918-c15d7232-1e3b-45bf-a6fa-f897faa222e7.png)
-
 ![Captura de Tela (130)](https://user-images.githubusercontent.com/62656936/173402941-6d5e24ef-51ed-4848-8371-5a2b3341e9c3.png)
+
+![Captura de Tela (129)](https://user-images.githubusercontent.com/62656936/173402918-c15d7232-1e3b-45bf-a6fa-f897faa222e7.png)

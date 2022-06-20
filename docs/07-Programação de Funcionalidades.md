@@ -25,6 +25,8 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 		viagens: '0'
 	};
 ```
+### Instruções de acesso
+Após o redirecionamento inicial, deve-se preencher as informações do formulário para logar com uma conta existente, ou clicar em "cadastre-se" e realizar o cadastramento.
 
 # Adicionar ou editar as informações de passageiro
 ![image](https://user-images.githubusercontent.com/103083123/174585250-450b8a64-7b42-42ab-a9db-3db27c5f2993.png)
@@ -49,6 +51,9 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 		CEP: CEPAtualizado,
 	};
 ```
+### Instruções de acesso
+Ao realizar o login, caso não seja o primeiro acesso, basta clicar no botão de "editar perfil", realizar as mudanças e clicar em "salvar".
+
 # Adicionar ou editar as informações de motorista
 ![image](https://user-images.githubusercontent.com/103083123/174589568-a23f2d87-7a22-4a4e-9382-17a0cbe8555c.png)
 
@@ -82,6 +87,9 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 		ajudaCusto: ajudaCustoAtualizado
 	};
 ```
+### Instruções de acesso
+Ao realizar o login, caso não seja o primeiro acesso, basta clicar no botão de "editar perfil", realizar as mudanças e clicar em "salvar".
+
 # Escolher entre motorista ou passageiro
 ![image](https://user-images.githubusercontent.com/103083123/174665596-488487e9-867b-4754-9a43-59431c24cf4b.png)
 ### Requisitos atendidos:
@@ -106,7 +114,9 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
                     perfil: 'passageiro'
                 }
 ```
-# Visualizar os motoristas disponíveis
+### Instruções de acesso
+Após cadastrar a conta, deve-se realizar o primeiro login, que redirecionará a essa página.
+
 ![image](https://user-images.githubusercontent.com/103083123/174670906-0b4ff5a6-d1dc-4760-ab2c-d4a4cccfc3fd.png)
 ### Requisitos atendidos
 - RF-001 O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis.
@@ -148,7 +158,8 @@ motoristas.map((usuario) => {
 	containerMotoristas.appendChild(motoristaContainer);
 });
 ```
-
+### Instruções de acesso
+Ao logar numa conta como passageiro, clicar no botão "oferecer carona", que irá redirecionar à página dos motoristas.
 
 # Visualizar os passageiros disponíveis
 ![image](https://user-images.githubusercontent.com/103083123/174671091-5cbf003b-747c-4cd2-b6c1-8b2bdf9fa7c5.png)
@@ -192,3 +203,5 @@ passageiros.map((usuario) => {
 	containerPassageiros.appendChild(passageiroContainer);
 });
 ```
+### Instruções de acesso
+Ao logar numa conta como motorista, clicar no botão "oferecer carona", que irá redirecionar à página dos passageiros.

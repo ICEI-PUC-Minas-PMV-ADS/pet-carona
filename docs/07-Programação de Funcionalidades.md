@@ -4,24 +4,29 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-# Alternar entre formulario de cadastro e o de autentificacao
+# Alternar entre formulario de cadastro e o de login
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/62656936/173162311-9cf6daa4-a2bd-47a0-8cae-5c873dfd917a.gif)
 
 ![Captura de Tela (126)](https://user-images.githubusercontent.com/62656936/173162531-7a7b1ce8-5198-42ab-ad8c-8fe58f5e17e1.png)
 
+### Requisitos atendidos:
+- RF-007 	O site deve apresentar a possibilidade de se criar uma conta, realizar login e salvar as informações associadas.
 
-# Sistema de autentificacao
+# Adicionar ou editar as informações de passageiro
+![image](https://user-images.githubusercontent.com/103083123/174585250-450b8a64-7b42-42ab-a9db-3db27c5f2993.png)
+
+### Requisitos atendidos:
+RF-004 	O formulário deve apresentar as seguintes informações a serem preenchidas e editadas pelo perfil de passageiro: endereço, bairro, CEP, e pets.
+
+# Adicionar ou editar as informações de passageiro
+![image](https://user-images.githubusercontent.com/103083123/174589568-a23f2d87-7a22-4a4e-9382-17a0cbe8555c.png)
+
+### Requisitos atendidos:
+- RF-005 	O formulário deve apresentar as seguintes informações a serem preenchidas e editadas pelo perfil de motorista: endereço, bairro, CEP, modelo do carro, porte dos pets a serem levados, e valor da ajuda de custo necessária.
+
+
+# Sistema de autenticação
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/62656936/173402311-fe243238-2ab5-46ef-b201-c82cb6e7e430.gif)
 

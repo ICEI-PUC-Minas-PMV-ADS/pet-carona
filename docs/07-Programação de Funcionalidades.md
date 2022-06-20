@@ -89,6 +89,7 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 ### Artefatos da funcionalidade
 - tipoUsuario.html
 - checarLogin.js
+### Estrutura de dados
 ```js
 	// perfil motorista
                 let usuarioAtualizado = {
@@ -104,4 +105,90 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
                     ...usuarioAtual,
                     perfil: 'passageiro'
                 }
+```
+# Visualizar os motoristas disponíveis
+![image](https://user-images.githubusercontent.com/103083123/174670906-0b4ff5a6-d1dc-4760-ab2c-d4a4cccfc3fd.png)
+### Requisitos atendidos
+- RF-001 O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis.
+
+### Artefatos da funcionalidade
+- ListaMotoristas.html
+- listarMotoristas.js
+- checarLogin.js
+
+### Estrutura de dados 
+```js
+motoristas.map((usuario) => {
+	let button = document.createElement('input');
+	button.setAttribute('type', 'button');
+	button.setAttribute('value', 'Ver Motorista');
+	button.className = 'button';
+	let motoristaContainer = document.createElement('div');
+	let imagemContainer = document.createElement('div');
+	imagemContainer.innerHTML += '<img class="foto" src="../../public/placeholder.png" alt="">';
+	let divInformacoes = document.createElement('div');
+	let nome = document.createElement('div');
+	nome.className = 'flex info';
+	let avaliacao = document.createElement('div');
+	avaliacao.className = 'flex info';
+	let viagens = document.createElement('div');
+	viagens.className = 'flex info';
+
+	nome.innerHTML += `<p>Nome: </p> <p>${usuario.nome}</p>`;
+	avaliacao.innerHTML += `<p>Avaliação: </p> <p>${usuario.avaliacao}</p>`;
+	viagens.innerHTML += `<p>Viagens:</p> <p>${usuario.viagens}</p>`;
+
+	divInformacoes.appendChild(nome);
+	divInformacoes.appendChild(avaliacao);
+	divInformacoes.appendChild(viagens);
+	divInformacoes.appendChild(button);
+	motoristaContainer.className = 'caracteristicasMotorista';
+	motoristaContainer.appendChild(imagemContainer);
+	motoristaContainer.appendChild(divInformacoes);
+	containerMotoristas.appendChild(motoristaContainer);
+});
+```
+
+
+# Visualizar os passageiros disponíveis
+![image](https://user-images.githubusercontent.com/103083123/174671091-5cbf003b-747c-4cd2-b6c1-8b2bdf9fa7c5.png)
+### Requisitos atendidos
+- RF-002 O site deve apresentar um mecanismo de busca para os motoristas pesquisarem os passageiros disponíveis.
+
+### Artefatos da funcionalidade
+- listarPassageiros.js
+- ListaPassageiros.html
+- checarLogin.js
+
+### Estrutura de dados 
+```js
+passageiros.map((usuario) => {
+	let button = document.createElement('input');
+	button.setAttribute('type', 'button');
+	button.setAttribute('value', 'Ver Passageiro');
+	button.className = 'button';
+	let passageiroContainer = document.createElement('div');
+	let imagemContainer = document.createElement('div');
+	imagemContainer.innerHTML += '<img class="foto" src="../../public/placeholder.png" alt="">';
+	let divInformacoes = document.createElement('div');
+	let nome = document.createElement('div');
+	nome.className = 'flex info';
+	let avaliacao = document.createElement('div');
+	avaliacao.className = 'flex info';
+	let viagens = document.createElement('div');
+	viagens.className = 'flex info';
+
+	nome.innerHTML += `<p>Nome: </p> <p>${usuario.nome}</p>`;
+	avaliacao.innerHTML += `<p>Avaliação: </p> <p>${usuario.avaliacao}</p>`;
+	viagens.innerHTML += `<p>Viagens:</p> <p>${usuario.viagens}</p>`;
+
+	divInformacoes.appendChild(nome);
+	divInformacoes.appendChild(avaliacao);
+	divInformacoes.appendChild(viagens);
+	divInformacoes.appendChild(button);
+	passageiroContainer.className = 'caracteristicasMotorista';
+	passageiroContainer.appendChild(imagemContainer);
+	passageiroContainer.appendChild(divInformacoes);
+	containerPassageiros.appendChild(passageiroContainer);
+});
 ```

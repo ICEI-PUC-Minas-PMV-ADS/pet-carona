@@ -10,10 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-- Mauro Jorge de Albuquerque Barreto
-- Manoella Carvalho Oliveira
-- Edilson Beserra da Silva Filho
-- Igor Augusto Labaki Gonçalo
+- Leidiane S
 - Luis Othávio Santos da Silva
 - Jaynne Polyana Nunes
 

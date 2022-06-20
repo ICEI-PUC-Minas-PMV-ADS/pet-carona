@@ -34,6 +34,7 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 ### Artefatos da funcionalidade
 - EditarPerfilPassageiro.html
 - editarPerfilPassageiro.js
+- checarLogin.js
 ### Estrutura de dados
 ```js
 	let nomeAtualizado = document.getElementById('nomeUsuario').innerHTML;
@@ -57,6 +58,7 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 ### Artefatos da funcionalidade
 - EditarPerfilMotorista.html
 - editarPerfilMotorista.js
+- checarLogin.js
 ### Estrutura de dados
 ```js
 	let nomeAtualizado = document.getElementById('nomeUsuario').innerHTML;
@@ -79,4 +81,27 @@ RF-004 	O formulário deve apresentar as seguintes informações a serem preench
 		portePet: portePetAtualizado,
 		ajudaCusto: ajudaCustoAtualizado
 	};
+```
+# Escolher entre motorista ou passageiro
+![image](https://user-images.githubusercontent.com/103083123/174665596-488487e9-867b-4754-9a43-59431c24cf4b.png)
+### Requisitos atendidos:
+- RF-003 	O site deve oferecer a opção de escolher o tipo do perfil (motorista ou passageiro).
+### Artefatos da funcionalidade
+- tipoUsuario.html
+- checarLogin.js
+```js
+	// perfil motorista
+                let usuarioAtualizado = {
+                    ...usuarioAtual,
+                    perfil: 'motorista',
+                    modeloCarro: 'Insira aqui o modelo do veículo',
+                    tipoCarro: 'Insira aqui o tipo do veículo',
+                    portePet: 'Insira aqui o porte dos pets para a carona',
+                    ajudaCusto: 'Insira aqui a ajuda de custo desejada'
+                }
+	// perfil passageiro
+	            let usuarioAtualizado = {
+                    ...usuarioAtual,
+                    perfil: 'passageiro'
+                }
 ```

@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-- Leidiane S
+- Leidiane dos Santos Nascimento
 - Luis Othávio Santos da Silva
 - Jaynne Polyana Nunes
 

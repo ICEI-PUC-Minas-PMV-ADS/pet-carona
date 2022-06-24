@@ -13,13 +13,18 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Requisitos associados | RF-001 	O site deve apresentar um mecanismo de busca para os passageiros pesquisarem os motoristas disponíveis. |
 | Objetivo do teste | Verificar se o site exibe corretamente os usuários |
 | Critérios de êxito | Deve-se mostrar os usuários conforme as informações exibidas no localStorage |
-
+| Passos | 1) Acessar o navegador |
+|        | 2) Realizar o login com uma conta cadastrada como passageiro|
+|        | 3) Clicar no botão "pedir carona" na página do passageiro.|
 
 |   Caso de teste    |           CT-02 - Visualizar passageiros disponíveis                         |
 |--------------------|-----------------------------------------------------------------------------|
 |Requisitos associados | RF-002 	O site deve apresentar um mecanismo de busca para os motoristas pesquisarem os passageiros disponíveis. |
 | Objetivo do teste | Verificar se o site exibe corretamente os usuários |
 | Critérios de êxito | Deve-se mostrar os usuários conforme as informações exibidas no localStorage |
+| Passos | 1) Acessar o navegador |
+|        | 2) Realizar o login com uma conta cadastrada como motorista|
+|        | 3) Clicar no botão "oferecer carona" na página do motorista.|
 
 
 |   Caso de teste    |           CT-03 - Escolher entre perfil de motorista ou passageiro          |

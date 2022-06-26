@@ -51,8 +51,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-003| O site deve oferecer a opção de escolher o tipo do perfil (motorista ou passageiro).  | ALTA |
 |RF-004| O formulário deve apresentar as seguintes informações a serem preenchidas e editadas pelo perfil de passageiro:  endereço, bairro, CEP, e pets.   |ALTA |
 |RF-005| O formulário deve apresentar as seguintes informações a serem preenchidas e editadas pelo perfil de motorista: endereço, bairro, CEP, modelo do carro, porte dos pets a serem levados, e valor da ajuda de custo necessária. | ALTA | 
-|RF-006| O site deve permitir a conexão entre motoristas e passageiros, após realizada a busca, direcionando-os para o ambiente do WhatsApp com seus respectivos números cadastrados.    |BAIXA |
-|RF-007| O site deve apresentar a possibilidade de se criar uma conta, realizar login e salvar as informações associadas. | ALTA |
+|RF-006| O site deve apresentar a possibilidade de se criar uma conta, realizar login e salvar as informações associadas. | ALTA |
 
 ### Requisitos não Funcionais
 
